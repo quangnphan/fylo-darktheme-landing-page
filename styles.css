@@ -283,10 +283,24 @@ a{
 
 @media (max-width: 800px){
     .top-wrapper .navbar{
-        padding: 30px;
+       padding: 0;
+       margin: 30px auto;
+       width: 80%;
+    }
+    .navbar img{
+        width: auto;
+        height: 25px;
+    }
+    .navbar .list li{
+        margin-left: 10px;
     }
     .heading .heading-img img{
-        width: 350px;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .heading .heading-text{
+        width: 80%;
+        margin: auto;
     }
     .middle-wrapper .content{
         display: flex;
@@ -327,7 +341,7 @@ a{
         margin-bottom: 20px;
     }
     .bottom-wrapper{
-        padding-left: 35px;
+        padding-left: 25px;
     }
     .bottom-wrapper .footer-grid{
         display: flex;
@@ -345,4 +359,5 @@ a{
     .bottom-wrapper .contact-list{
         margin-bottom: 50px;
     }
+    
 }
